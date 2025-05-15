@@ -55,8 +55,8 @@ constexpr float ODRIVE_CURRENT_SOFT_MAX = 10.0; // A          // TODO: Check if 
 // Driver Interface
 constexpr u32 BRAKE_MIN_VALUE = 405;                // TODO: UPDATE THIS
 constexpr u32 BRAKE_MAX_VALUE = 290;                // TODO: UPDATE THIS
-constexpr u32 THROTTLE_MIN_VALUE = 700;            // TODO: UPDATE THIS
-constexpr u32 THROTTLE_MAX_VALUE = 300;            // TODO: UPDATE THIS
+constexpr u32 THROTTLE_MIN_VALUE = 700; //1.1kOhms (5/14/25)   // TODO: UPDATE THIS
+constexpr u32 THROTTLE_MAX_VALUE = 300; //7.3kOhms (5/14/25)   // TODO: UPDATE THIS
 
 // Actuator
 // NOTE: Pitch is distance / rotation
